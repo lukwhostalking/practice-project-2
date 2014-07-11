@@ -19,6 +19,8 @@
 		5652687D195A23680083DD5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56526865195A23670083DD5C /* UIKit.framework */; };
 		56526885195A23680083DD5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56526883195A23680083DD5C /* InfoPlist.strings */; };
 		56526887195A23680083DD5C /* practice_project_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56526886195A23680083DD5C /* practice_project_2Tests.m */; };
+		56526896195A24B20083DD5C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56526894195A24B20083DD5C /* MainViewController.m */; };
+		56526897195A24B20083DD5C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56526895195A24B20083DD5C /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		56526882195A23680083DD5C /* practice-project-2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "practice-project-2Tests-Info.plist"; sourceTree = "<group>"; };
 		56526884195A23680083DD5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56526886195A23680083DD5C /* practice_project_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = practice_project_2Tests.m; sourceTree = "<group>"; };
+		56526893195A24B20083DD5C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		56526894195A24B20083DD5C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		56526895195A24B20083DD5C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				56526871195A23670083DD5C /* AppDelegate.m */,
 				56526873195A23670083DD5C /* Images.xcassets */,
 				56526868195A23670083DD5C /* Supporting Files */,
+				56526893195A24B20083DD5C /* MainViewController.h */,
+				56526894195A24B20083DD5C /* MainViewController.m */,
+				56526895195A24B20083DD5C /* MainViewController.xib */,
 			);
 			path = "practice-project-2";
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5652686C195A23670083DD5C /* InfoPlist.strings in Resources */,
+				56526897195A24B20083DD5C /* MainViewController.xib in Resources */,
 				56526874195A23670083DD5C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56526872195A23670083DD5C /* AppDelegate.m in Sources */,
+				56526896195A24B20083DD5C /* MainViewController.m in Sources */,
 				5652686E195A23670083DD5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
